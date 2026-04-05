@@ -1,0 +1,49 @@
+Subject: Submission for Backend Developer Position - Smart Finance Manager API
+
+Dear Hiring Team,
+
+I am excited to submit my implementation of the Smart Finance Manager Backend API for the backend developer position. This project demonstrates my skills in building scalable, secure, and well-structured Node.js applications.
+
+## Key Highlights:
+- **Clean Architecture**: Separated concerns with controllers, services, routes, middleware, and config layers
+- **Security Best Practices**: JWT authentication, bcrypt password hashing, environment variable management
+- **Database Integration**: Prisma ORM with SQLite for efficient data management
+- **Role-Based Access**: Middleware for authorization and access control
+- **RESTful API Design**: Proper HTTP status codes and structured endpoints
+- **Professional Documentation**: Comprehensive README with setup instructions and API documentation
+
+## Technical Stack:
+- Node.js & Express for server-side logic
+- Prisma for database ORM
+- JWT for authentication
+- bcrypt for password security
+- CORS for cross-origin requests
+
+## Project Structure:
+```
+src/
+├── controllers/     # Request handlers
+├── services/        # Business logic
+├── routes/          # API route definitions
+├── middleware/      # Authentication & authorization
+└── config/          # Database configuration
+prisma/
+└── schema.prisma    # Database schema
+```
+
+## Setup Instructions:
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Copy `.env.example` to `.env` and configure environment variables
+4. Run `npx prisma migrate dev` to set up the database
+5. Run `npx prisma generate` to generate Prisma client
+6. Start the server with `npm start`
+
+The API provides endpoints for user registration/login, financial record management, and dashboard analytics, all protected with JWT authentication.
+
+I have ensured the code is production-ready by removing hardcoded secrets, adding proper error handling, and following industry best practices. The project is designed with scalability and maintainability in mind.
+
+I look forward to discussing this implementation in more detail during the interview.
+
+Best regards,
+Shiwani Kanozia
